@@ -1,0 +1,54 @@
+.leftdiv{
+    float: left;
+    width: 50%;
+}
+.rightdiv{
+    float: left;
+    width: 50%;
+}
+#logo{
+    margin: 10px;
+}
+#branches{
+    margin: 10px;
+}
+.branch-detail{
+    font-size: 12px;
+}
+.branch-detail p{
+    margin: 0%;
+}
+.branch-name{
+    font-size: 14;
+    font-weight: 600;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#headoffice{
+    padding-left: 10px;
+}
+.subheader1{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.subheader1 p{
+    font-size: 14px;
+}
+.headernote{
+    font-size: 14px;
+}
+#headernotecontent{
+    margin: 0px 10px 0px 10px;
+}
+.bold1{
+    font-weight: bold;
+}
+.categorydiv{
+    float: left;
+    width: 20%;
+}
+#categorylabel{
+    margin-left:10px;
+    font-weight: bold;
+}
