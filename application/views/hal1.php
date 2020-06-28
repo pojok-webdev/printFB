@@ -57,28 +57,203 @@
     </div>
     <div class="categorydiv">
         <div id="categorylabel">
-            <span>Kategori</span>
+            <span class="categoryoptionlabel">Kategori</span>
         </div>
     </div>
     <div class="categorydiv">
         <div>
-            <span><input type="checkbox" name="" id=""> Korporasi</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Korporasi</span>
         </div>
     </div>
     <div class="categorydiv">
         <div>
-            <span><input type="checkbox" name="" id=""> Game Online</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Game Online</span>
         </div>
     </div>
     <div class="categorydiv">
         <div>
-            <span><input type="checkbox" name="" id=""> Perorangan</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Perorangan</span>
         </div>
     </div>
     <div class="categorydiv">
         <div>
-            <span><input type="checkbox" name="" id=""> Lainnya</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Lainnya</span>
         </div>
     </div>
+    <div class='rowheader'>
+        <div>
+            <span>DATA PERUSAHAAN</span>
+        </div>
     </div>
+    <div class="rowfield">
+        <div>
+            <span>Nama Perusahaan/Pelanggan</span>
+        </div>
+        <div>
+            Padi Internet, PT
+        </div>
+    </div>
+    <hr>
+    <div class="rowfield">
+        <div>
+            <span>Jenis Usaha</span>
+        </div>
+        <div>
+            Lain-lain
+        </div>
+    </div>
+    <hr>
+    <div class="rowfield">
+        <div>
+            <span>Nomor Pendaftaran Perusahaan (Harap melampirkan SIUP dan NPWP)</span>
+        </div>
+        <div>
+            SIUP: 12345678xx
+        </div>
+        <div>
+            NPWP: 23456789xx
+        </div>
+    </div>
+    <hr>
+    <div class="rowfield">
+        <div>
+            <span>Alamat, Telepon, dan Fax</span>
+        </div>
+        <div>
+            Alamat: Jl Mayjen Sungkono 83 Surabaya
+        </div>
+        <div>
+            Telp/Fax: 23456789xx/23456789xx
+        </div>
+    </div>
+    <hr>
+    <div class="rowfield">
+        <div>
+            <span>Pemohon dan Penanggung Jawab (Harap melampirkan fotokopi kartu identitas)</span>
+        </div>
+    </div>
+    <hr>
+    <div class="leftdiv">
+            <div class='rowfieldheader'>
+                Pemohon
+            </div>
+            <div>
+                <div class='leftfield'>Nama</div>: Puji W Prayitno
+            </div>
+            <div>
+                <div class='leftfield'>Jabatan</div>: CEO
+            </div>
+            <div>
+                <div class='leftfield'>No ID (KTP)</div>: 123456789xx
+            </div>
+            <div>
+                <div class="leftfield">Telp/HP</div>
+                <div class="xrightfield">: 123456789xx</div>
+            </div>
+            <div>
+                <div class='leftfield'>Email</div>: puji@padi.net.id
+            </div>
+
+        </div>
+        <div class="rightdiv">
+            <div class='rowfieldheader'>
+                Penanggung Jawab (Setara Direktur atau Pemilik Usaha)
+            </div>
+            <div>
+                <div class='leftfield'>Nama</div>: Puji W Prayitno
+            </div>
+            <div>
+                <div class='leftfield'>Jabatan</div>: CEO
+            </div>
+            <div>
+                <div class='leftfield'>No ID (KTP)</div>: 123456789xx
+            </div>
+            <div>
+                <div class="leftfield">Telp/HP</div>
+                <div>: 123456789xx</div>
+            </div>
+            <div>
+                <div class='leftfield'>Email</div>: puji@padi.net.id
+            </div>
+
+        </div>
+    <hr>
+    <div class="leftdiv">
+            <div class='rowfieldheader'>
+                Untuk Keperluan Administrasi, PadiNET akan menghubungi
+            </div>
+            <div>
+                <div class='leftfield'>Nama</div>: Puji W Prayitno
+            </div>
+            <div>
+                <div class='leftfield'>Jabatan</div>: CEO
+            </div>
+            <div>
+                <div class="leftfield">Telp/HP</div>
+                <div class="xrightfield">: 123456789xx</div>
+            </div>
+            <div>
+                <div class='leftfield'>Email</div>: puji@padi.net.id
+            </div>
+
+        </div>
+        <div class="rightdiv">
+            <div class='rowfieldheader'>
+                Untuk setup teknis dan instalasi, PadiNET akan menghubungi
+            </div>
+            <div>
+                <div class='leftfield'>Nama</div>: Puji W Prayitno
+            </div>
+            <div>
+                <div class='leftfield'>Jabatan</div>: CEO
+            </div>
+            <div>
+                <div class="leftfield">Telp/HP</div>
+                <div>: 123456789xx</div>
+            </div>
+            <div>
+                <div class='leftfield'>Email</div>: puji@padi.net.id
+            </div>
+
+        </div>
+        <hr>
+    <div class="leftdiv">
+            <div class='rowfieldheader'>
+                Untuk penagihan, PadiNET akan menghubungi
+            </div>
+            <div>
+                <div class='leftfield'>Nama</div>: Puji W Prayitno
+            </div>
+            <div>
+                <div class='leftfield'>Jabatan</div>: CEO
+            </div>
+            <div>
+                <div class="leftfield">Telp/HP</div>
+                <div class="xrightfield">: 123456789xx</div>
+            </div>
+            <div>
+                <div class='leftfield'>Email</div>: puji@padi.net.id
+            </div>
+
+        </div>
+        <div class="rightdiv">
+            <div class='rowfieldheader'>
+                Untuk support teknis 24 jam, PadiNET akan menghubungi
+            </div>
+            <div>
+                <div class='leftfield'>Nama</div>: Puji W Prayitno
+            </div>
+            <div>
+                <div class='leftfield'>Jabatan</div>: CEO
+            </div>
+            <div>
+                <div class="leftfield">Telp/HP</div>
+                <div>: 123456789xx</div>
+            </div>
+            <div>
+                <div class='leftfield'>Email</div>: puji@padi.net.id
+            </div>
+
+        </div>
+
 </page>

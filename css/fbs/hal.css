@@ -47,8 +47,47 @@
 .categorydiv{
     float: left;
     width: 20%;
+    background-color: white;
 }
 #categorylabel{
     margin-left:10px;
     font-weight: bold;
+}
+span.categoryoptionlabel {
+    font-size: 12px;
+    font-weight: bold;
+}
+.rowheader{
+    margin-top: 5%;
+    background-color: black;
+    color:white;
+}
+.rowheader div{
+    margin-left: 10px;
+}
+.rowheader div span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.rowfield div{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.rowfield div span{
+    font-size: 10px;
+}
+.rowfieldheader{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.leftfield{
+    float: left;
+    width: 30%;
+    margin-left: 10px;
+}
+.rightfield{
+    float: left;
+    width: 70%;
 }
