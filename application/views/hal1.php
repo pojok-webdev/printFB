@@ -132,7 +132,7 @@
             <span>Pemohon dan Penanggung Jawab (Harap melampirkan fotokopi kartu identitas)</span>
         </div>
     </div>
-    <hr>
+    <hr class='fieldrowseparator'>
     <div class="leftdiv">
             <div class='rowfieldheader'>
                 Pemohon
@@ -155,7 +155,8 @@
             </div>
 
         </div>
-        <div class="rightdiv">
+        <div class='vr'>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
+        <div class="rightdiv leftborder">
             <div class='rowfieldheader'>
                 Penanggung Jawab (Setara Direktur atau Pemilik Usaha)
             </div>
@@ -197,7 +198,7 @@
             </div>
 
         </div>
-        <div class="rightdiv">
+        <div class="rightdiv leftborder">
             <div class='rowfieldheader'>
                 Untuk setup teknis dan instalasi, PadiNET akan menghubungi
             </div>
@@ -236,7 +237,7 @@
             </div>
 
         </div>
-        <div class="rightdiv">
+        <div class="rightdiv leftborder">
             <div class='rowfieldheader'>
                 Untuk support teknis 24 jam, PadiNET akan menghubungi
             </div>
@@ -255,5 +256,5 @@
             </div>
 
         </div>
-
+    <hr>
 </page>

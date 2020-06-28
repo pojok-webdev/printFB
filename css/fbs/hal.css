@@ -4,7 +4,7 @@
 }
 .rightdiv{
     float: left;
-    width: 50%;
+    width: 49%;
 }
 #logo{
     margin: 10px;
@@ -90,4 +90,17 @@ span.categoryoptionlabel {
 .rightfield{
     float: left;
     width: 70%;
+}
+.leftborder{
+    border-left: 1px black;
+}
+.fieldrowseparator{
+    margin: 0px;
+}
+.vr{
+    float: left;
+    background-color: black;
+    width: auto;
+    padding-bottom: 0%;
+    margin-top: 0%;
 }
