@@ -155,6 +155,7 @@
             </div>
         
         </div>
+        <div class='vr'>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
         <div class="rightdiv leftborder">
             <div class='rowfieldheader'>
                 Penanggung Jawab (Setara Direktur atau Pemilik Usaha)
@@ -177,7 +178,7 @@
             </div>
 
         </div>        
-        <hr>
+        <div class='hr'></div>
         <div class="leftdiv">
             <div class='rowfieldheader'>
                 Untuk Keperluan Administrasi, PadiNET akan menghubungi
@@ -197,6 +198,7 @@
             </div>
 
         </div>
+        <div class='vr'>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
         <div class="rightdiv leftborder">
             <div class='rowfieldheader'>
                 Untuk setup teknis dan instalasi, PadiNET akan menghubungi
@@ -236,6 +238,7 @@
             </div>
 
         </div>
+        <div class='vr'>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</div>
         <div class="rightdiv leftborder">
             <div class='rowfieldheader'>
                 Untuk support teknis 24 jam, PadiNET akan menghubungi
@@ -255,46 +258,6 @@
             </div>
 
         </div>
+    <div class='hr'></div>
     <hr>
-
-
-    <div class="leftdiv">
-            <div class='rowfieldheader'>
-                Penagihan
-            </div>
-            <div>
-                <div><input type="checkbox" name="" id="">Account Baru</div>
-            </div>
-            <div>
-                <div><input type="checkbox" name="" id="">Ditambahkan ke Account yang telah ada</div>
-            </div>
-
-        </div>
-        <div class="rightdiv leftborder">
-            <div class='rowfieldheader'>
-                Alamat Penagihan
-            </div>
-            <div>
-                <div>Komplek Pergudangan Permata Gedangan Blok A / 16</div><br><br>
-            </div>
-
-        </div>
-    <hr>
-    <div id='footer'>
-    <div class="leftdiv">
-        <div>
-            <div class='footer'>Paraf Pelanggan</div>
-        </div>
-
-    </div>
-    <div class="rightdiv leftborder">
-        <div>
-            <div class='footer' rightside>Confidential Hal 1</div><br><br>
-        </div>
-
-    </div>
-
-    </div>
 </page>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="/js/fbs/hal1.js"></script>
