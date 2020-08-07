@@ -86,17 +86,18 @@
         </div>
     </div>
     <div class='sign'>
-        <p class='leftdiv'>&nbsp;</p>
-        <p class='rightdiv'>&nbsp;</p>
-    </div>
-    <div class='signx'>
-        <div class='leftsignpart'>
+        <div class='leftdiv2'>
+            <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
             <span id='leftdivsmaller1'>Tanda Tangan & Nama AM</span>
             <span id='leftdivsmaller2'>Tanggal</span>
         </div>
-        <div class='rightsignpartinternal'>
-            <span id='keteranganinternal'>Keterangan</span>    
+        <div class='verticalline'>
+        <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+        </div>
+        <div class='rightdiv2'>
+            <span id='keteranganinternal'>Keterangan</span>
+            <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
         </div>
     </div>
-
+<hr class='lonely'>
 </page>

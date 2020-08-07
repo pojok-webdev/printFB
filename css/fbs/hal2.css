@@ -158,11 +158,12 @@ span.categoryoptionlabel {
     border: 1px;
     float: left;
     width: 60%;
+    padding-left:5px;
 }
 #leftdivsmaller2{
     border: 1px;
     float: left;
-    width: 20%;
+    width: 15%;
 }
 #leftdivsmaller3{
     border: 1px;
@@ -181,4 +182,34 @@ span.categoryoptionlabel {
 }
 #keteranganinternal{
     top:1px;
+    padding-left: 5px;
+}
+.hasthinrightborder{
+    border-right: 1px black solid;
+}
+.leftdiv2{
+    width:50%;
+    float:left;
+    height: 10px;
+    display: block;
+}
+.rightdiv2{
+    width:49.9%;
+    float:left;
+    height: 10px;
+    display: block;
+}
+.verticalline{
+    background-color:black;
+    width: 0.1%;
+    float: left;
+    display: block;
+}
+.signy{
+    border-bottom: black solid 0.1px;
+}
+.lonely{
+    border-top: 0px;
+    margin-top: 0px;
+    color: black;
 }
