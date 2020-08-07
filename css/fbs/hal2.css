@@ -155,27 +155,32 @@ span.categoryoptionlabel {
     width: 50%;
 }
 #leftdivsmaller1{
+    text-decoration: overline;
     border: 1px;
     float: left;
     width: 60%;
     padding-left:5px;
 }
 #leftdivsmaller2{
+    text-decoration: overline;
     border: 1px;
     float: left;
     width: 15%;
 }
 #leftdivsmaller3{
+    text-decoration: overline;
     border: 1px;
     float: left;
     width: 20%;
 }
 #rightdivsmaller1{
+    text-decoration: overline;
     border: 1px;
     float: left;
     width: 60%;
 }
 #rightdivsmaller2{
+    text-decoration: overline;
     border: 1px;
     float: left;
     width: 40%;
