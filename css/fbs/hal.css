@@ -120,3 +120,11 @@ span.categoryoptionlabel {
 
     left:10.5cm;
 }
+.leftnumber{
+    float: left;
+    width: 15%;
+}
+.rightafternumber{
+    float: left;
+    width: 85%;
+}

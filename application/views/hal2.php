@@ -8,7 +8,7 @@
     </div>
     <div class="servicedata">
         <div>
-            <span>Padi Smart Value Up To 2 Mbps</span>
+            <span><a href="/fbs/hal1">Padi Smart Value Up To 2 Mbps</a></span>
         </div>
     </div>
     <div class="perioddata">
@@ -50,17 +50,52 @@
         </div>
     </div>
     <div >
-        <div>
-            <div class='leftfieldpersetujuan'>1</div><div class='rightfieldpersetujuan'>. Pelanggan memberikan konfirmasi atas keinginannya menggunakan layanan yang disediakan oleh PadiNET dan secara otomatis terikat dengan SYARAT DAN KETENTUAN BERLANGGANAN yang diberlakukan oleh PadiNET.</div>
+        <ol class='agreement'>
+            <li>Pelanggan memberikan konfirmasi atas keinginannya menggunakan layanan yang disediakan oleh PadiNET dan secara otomatis terikat dengan SYARAT DAN KETENTUAN BERLANGGANAN yang diberlakukan oleh PadiNET</li>
+            <li>Form berlangganan ini berfungsi dan memiliki kekuatan sebagaimana Kontrak Berlangganan, sesuai dengan periode yang tercantum dalam halaman 2</li>
+            <li>PadiNET akan melaksanakan kegiatan instalasi dan setup sesuai dengan layanan yang dipilih sebagaimana tertera di atas dan akan dituangkan kemudian dalam Berita Acara Aktivasi</li>
+            <li>Pelanggan setuju bahwa Form Berlangganan bersama dengan Berita Acara Aktivasi dapat digunakan oleh PadiNET sebagai dasar penagihan</li>
+            <li>Untuk layanan yang menggunakan media wireless dan layanan collocation, proses upgrade bisa dilakukan sewaktu-waktu mengikuti periode kontrak sebelumnya</li>
+            <li>Downgrade hanya dapat dilaksanakan setelah layanan dan / atau perubahan terakhir layanan berjalan minimal 3 bulan</li>
+            <li>Downgrade hanya bisa dilaksanakan pada tahun pertama secara otomatis akan memperpanjang masa kontrak selama12 bulan ke depan sejak dilaksanakannya downgrade</li>
+            <li>Upgrade layanan yang menggunakan media fiber optik dan satelit wajib dipertahankan sampai minimal kontrak 12 bulan berakhir</li>
+            <li>Downgrade untuk layanan yang menggunakan media fiber optik dan satelit baru dapat diaksakanakan setelah minimal periode kontrak 12 bulan berjalan</li>
+        </ol>
+    </div>
+    <hr>
+    <div class='sign'>
+        <p class='leftdiv'>Saya menyatakan bahwa form ini diisi dengan sebenar-benarnya dan saya bersedia untuk mengikuti segala persyaratan dan ketentuan yang ditetapkan oleh PadiNET</p>
+        <p class='rightdiv'>Autorisasi PadiNET</p>
+    </div>
+    <div class='signx'>
+        <div class='leftsignpart'>
+            <span id='leftdivsmaller1'>Tanda Tangan & Nama Terang</span>
+            <span id='leftdivsmaller2'>Tanggal</span>
+            <span id='leftdivsmaller3'>Stempel</span>
         </div>
-        <div>
-            <div class='leftfieldpersetujuan'>2</div><div class='rightfieldpersetujuan'>. Rp. 750.000+PPn = Rp. 825.000</div>
+        <div class='rightsignpart'>
+            <span id='rightdivsmaller1'>Tanda Tangan & Nama Terang</span>    
+            <span id='rightdivsmaller2'>Stempel PadiNET</span>
         </div>
+    </div>
+
+    <div class='rowheaderx internalheader'>
         <div>
-            <div class='leftfieldpersetujuan'>3</div><div class='rightfieldpersetujuan'>.</div> 
+        <span>UNTUK PENGGUNAAN INTERNAL</span>
+
         </div>
-        <div>
-            <div class='leftfieldpersetujuan'>4</div><div class='rightfieldpersetujuan'>. Rp. 750.000</div>
+    </div>
+    <div class='sign'>
+        <p class='leftdiv'>&nbsp;</p>
+        <p class='rightdiv'>&nbsp;</p>
+    </div>
+    <div class='signx'>
+        <div class='leftsignpart'>
+            <span id='leftdivsmaller1'>Tanda Tangan & Nama AM</span>
+            <span id='leftdivsmaller2'>Tanggal</span>
+        </div>
+        <div class='rightsignpartinternal'>
+            <span id='keteranganinternal'>Keterangan</span>    
         </div>
     </div>
 

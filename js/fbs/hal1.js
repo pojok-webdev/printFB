@@ -1,8 +1,12 @@
 (function($){
     console.log('test');
     $.ajax({
-        url:'/localhost:2020/getfb/1',
-        dataType:'json'
+        url:'/dataprovider/getfb/1',
+        dataType:'json',
+        "headers": {
+            "accept": "application/json",
+            "Access-Control-Allow-Origin":"*"
+        }
     })
     .done(function(res){
         console.log('Res',res);

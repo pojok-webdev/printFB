@@ -58,7 +58,7 @@ span.categoryoptionlabel {
     font-weight: bold;
 }
 .rowheader{
-    margin-top: 5%;
+    margin-top: 10%;
     background-color: black;
     color:white;
 }
@@ -68,6 +68,11 @@ span.categoryoptionlabel {
 .rowheader div span{
     font-size: 12px;
     font-weight: bold;
+}
+.rowheaderx{
+    margin-top: 25px;
+    background-color: black;
+    color:white;
 }
 .leftfieldbiaya{
     float: left;
@@ -133,4 +138,47 @@ span.categoryoptionlabel {
     margin-top:0px;
     background-color: black;
     color:white;
+}
+.agreement{
+    padding-right:20px;
+}
+.sign{
+    height: 150px;
+    display: block;
+}
+.leftsignpart{
+    float: left;
+    width: 50%;
+}
+.rightsignpart{
+    float: left;
+    width: 50%;
+}
+#leftdivsmaller1{
+    border: 1px;
+    float: left;
+    width: 60%;
+}
+#leftdivsmaller2{
+    border: 1px;
+    float: left;
+    width: 20%;
+}
+#leftdivsmaller3{
+    border: 1px;
+    float: left;
+    width: 20%;
+}
+#rightdivsmaller1{
+    border: 1px;
+    float: left;
+    width: 60%;
+}
+#rightdivsmaller2{
+    border: 1px;
+    float: left;
+    width: 40%;
+}
+#keteranganinternal{
+    top:1px;
 }

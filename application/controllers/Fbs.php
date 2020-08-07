@@ -28,4 +28,7 @@ class Fbs extends CI_Controller{
     function hal2(){
         $this->load->view('hal2');
     }
+    function phpinfo(){
+        phpinfo();
+    }
 }
