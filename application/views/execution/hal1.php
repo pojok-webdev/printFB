@@ -1,5 +1,10 @@
 <link rel='stylesheet' href='/css/fbs/a4.css' />
 <link rel='stylesheet' href='/css/fbs/hal.css' />
+<div class='navigator'>
+    <a href="/fbs/index"><img src="/img/navigators/home-4x.png" alt="Home" ></a>
+    <a href="/fbs/hal2/<?php echo $nofb;?>"><img src="/img/navigators/caret-right-4x.png" ></a>
+    <a href="#"><img src="/img/navigators/print-4x.png"></a>
+</div>
 <page size="A4">
     <div class="leftdiv">
         <div id="logo" >

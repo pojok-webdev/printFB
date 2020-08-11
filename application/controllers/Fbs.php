@@ -7,6 +7,13 @@ class Fbs extends CI_Controller{
         $this->load->library('common');
     }
     function index(){
+        $fbs = $this->report->getfbs();
+        $data = array(
+            'fbs'=>$fbs['res']
+        );
+        $this->load->view('execution/index',$data);
+    }
+    function indexx(){
         $this->load->model('report');
         $this->load->model('fb');
         $fb = new Fb();
@@ -34,8 +41,8 @@ class Fbs extends CI_Controller{
             'npwp'=>$data->npwp,
             'telp'=>$data->telp,
             'fax'=>$data->fax,
-            'period1'=>adaptdate($data->period1),
-            'period2'=>adaptdate($data->period2),
+            'period1'=>$this->common->adaptdate($data->period1),
+            'period2'=>$this->common->adaptdate($data->period2),
         );
         $this->load->view('execution/hal1',$data);
     }
@@ -52,6 +59,8 @@ class Fbs extends CI_Controller{
             'fax'=>$data->fax,
             'period1'=>$this->common->adaptdate($data->period1),
             'period2'=>$this->common->adaptdate($data->period2),
+            'username'=>$data->username,
+            'setupdpp'=>$data->setupdpp,
         );
         $this->load->view('execution/hal2',$data);
     }

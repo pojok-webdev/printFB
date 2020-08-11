@@ -1,7 +1,12 @@
 <link rel='stylesheet' href='/css/fbs/a4.css' />
 <link rel='stylesheet' href='/css/fbs/hal2.css' />
+<div class='navigator'>
+    <a href="/fbs/index"><img src="/img/navigators/home-4x.png" alt="Home" ></a>
+    <a href="/fbs/hal1/<?php echo $nofb;?>"><img src="/img/navigators/caret-left-4x.png" ></a>
+    <a href="#"><img src="/img/navigators/print-4x.png"></a>
+</div>
 <page size="A4">
-    <div class='rowheader serviceheader'>
+    <div class='rowheader1st serviceheader'>
         <div>
             <span>LAYANAN</span>
         </div>
@@ -27,7 +32,7 @@
     <div >
         <div>
             <div class='leftfieldbiaya'>Biaya Setup</div>
-            <div class='rightfieldbiaya'>: Rp. 1.000.000+PPn = Rp. 1.100.000</div>
+            <div class='rightfieldbiaya'>: Rp. <?php echo $setupdpp;?>+PPn = Rp. 1.100.000</div>
         </div>
         <div>
             <div class='leftfieldbiaya'>Biaya berlangganan bulanan</div>
@@ -69,13 +74,13 @@
     </div>
     <div class='signx'>
         <div class='leftsignpart'>
-            <span id='leftdivsmaller1'>Tanda Tangan & Nama Terang</span>
-            <span id='leftdivsmaller2'>Tanggal</span>
-            <span id='leftdivsmaller3'>Stempel</span>
+            <span class='leftdivsmaller1 hasoverline'>Tanda Tangan & Nama Terang</span>
+            <span class='leftdivsmaller2 hasoverline'>Tanggal</span>
+            <span class='leftdivsmaller3 hasoverline'>Stempel</span>
         </div>
         <div class='rightsignpart'>
-            <span id='rightdivsmaller1'>Tanda Tangan & Nama Terang</span>    
-            <span id='rightdivsmaller2'>Stempel PadiNET</span>
+            <span class='rightdivsmaller1 hasoverline'>Tanda Tangan & Nama Terang</span>    
+            <span class='rightdivsmaller2 hasoverline'>Stempel PadiNET</span>
         </div>
     </div>
 
@@ -85,18 +90,27 @@
 
         </div>
     </div>
+
+
+
     <div class='sign'>
         <div class='leftdiv2'>
             <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
-            <span id='leftdivsmaller1'>Tanda Tangan & Nama AM</span>
-            <span id='leftdivsmaller2'>Tanggal</span>
+            <span class='leftdivsmaller1'>
+                <span id='unholder'><?php echo $username;?></span>
+                <span id='ttholder' class='hasoverline'>Tanda Tangan & Nama AM</span>
+            </span>
+            <span class='leftdivsmaller2'>
+                <span>&nbsp;</span>
+                <span class='centered hasoverline'>Tanggal</span>
+            </span>
         </div>
         <div class='verticalline'>
         <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
         </div>
         <div class='rightdiv2'>
-            <span id='keteranganinternal'>Keterangan</span>
-            <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+            <span id='keteranganinternal' class='hasoverline'>Keterangan</span>
+            <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
         </div>
     </div>
 <hr class='lonely'>

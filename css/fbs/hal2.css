@@ -1,10 +1,14 @@
 .leftdiv{
     float: left;
-    width: 50%;
+    width: 48%;
+    padding-left:1%;
+    padding-right:1%;
 }
 .rightdiv{
     float: left;
-    width: 50%;
+    width: 48%;
+    padding-left:1%;
+    padding-right:1%;
 }
 #logo{
     margin: 10px;
@@ -56,6 +60,10 @@
 span.categoryoptionlabel {
     font-size: 12px;
     font-weight: bold;
+}
+.rowheader1st{
+    background-color: black;
+    color:white;
 }
 .rowheader{
     margin-top: 10%;
@@ -154,36 +162,39 @@ span.categoryoptionlabel {
     float: left;
     width: 50%;
 }
-#leftdivsmaller1{
+.hasoverline{
     text-decoration: overline;
+}
+.leftdivsmaller1{
+    text-transform: capitalize;
     border: 1px;
     float: left;
-    width: 60%;
+    width: 55%;
     padding-left:5px;
 }
-#leftdivsmaller2{
-    text-decoration: overline;
-    border: 1px;
-    float: left;
-    width: 15%;
-}
-#leftdivsmaller3{
-    text-decoration: overline;
+.leftdivsmaller2{
     border: 1px;
     float: left;
     width: 20%;
 }
-#rightdivsmaller1{
-    text-decoration: overline;
+.leftdivsmaller3{
+    border: 1px;
+    float: left;
+    width: 20%;
+}
+.rightdivsmaller1{
     border: 1px;
     float: left;
     width: 60%;
+    margin:auto;
+    display: table;
 }
-#rightdivsmaller2{
-    text-decoration: overline;
+.rightdivsmaller2{
     border: 1px;
     float: left;
     width: 40%;
+    margin:auto;
+    display: table;
 }
 #keteranganinternal{
     top:1px;
@@ -217,4 +228,21 @@ span.categoryoptionlabel {
     border-top: 0px;
     margin-top: 0px;
     color: black;
+}
+.salesholder{
+    width: inherit;
+    text-align: center;
+}
+#ttholder{
+    text-decoration: overline;
+    margin: auto;
+    display: table;
+}
+#unholder{
+    margin: auto;
+    display: table;
+}
+.centered{
+    margin:auto;
+    display: table;
 }
