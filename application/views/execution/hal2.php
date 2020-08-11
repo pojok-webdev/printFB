@@ -13,7 +13,7 @@
     </div>
     <div class="servicedata">
         <div>
-            <span><a href="/fbs/hal1">Padi Smart Value Up To 2 Mbps</a></span>
+            <span>Padi Smart Value Up To 2 Mbps</span>
         </div>
     </div>
     <div class="perioddata">

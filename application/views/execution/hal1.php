@@ -8,9 +8,7 @@
 <page size="A4">
     <div class="leftdiv">
         <div id="logo" >
-        <a href="/fbs/hal2">
         <img src="/img/logo_padinet_small4.png" height="75px" alt="">
-        </a>
         </div>
         <div id="headoffice">
             <p class="branch-name">Surabaya Head Office</p>
