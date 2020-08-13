@@ -1,5 +1,7 @@
 <link rel='stylesheet' href='/css/fbs/a4.css' />
 <link rel='stylesheet' href='/css/fbs/hal2.css' />
+<link rel="stylesheet" href="/css/fbs/screen-css.css" media="all" />
+<link rel="stylesheet" href="/css/fbs/print-css.css" media="print" />
 <div class='navigator'>
     <a href="/fbs/index"><img src="/img/navigators/home-4x.png" alt="Home" ></a>
     <a href="/fbs/hal1/<?php echo $nofb;?>"><img src="/img/navigators/caret-left-4x.png" ></a>

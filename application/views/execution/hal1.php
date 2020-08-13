@@ -1,11 +1,15 @@
+<html>
 <link rel='stylesheet' href='/css/fbs/a4.css' />
 <link rel='stylesheet' href='/css/fbs/hal.css' />
+<link rel="stylesheet" href="/css/fbs/screen-css.css" media="all" />
+<link rel="stylesheet" href="/css/fbs/print-css.css" media="print" />
+<script src="/js/fbs/print.js"></script>
 <div class='navigator'>
     <a href="/fbs/index"><img src="/img/navigators/home-4x.png" alt="Home" ></a>
     <a href="/fbs/hal2/<?php echo $nofb;?>"><img src="/img/navigators/caret-right-4x.png" ></a>
-    <a href="#"><img src="/img/navigators/print-4x.png"></a>
+    <span onclick="winPrint()"><img src="/img/navigators/print-4x.png"></span>
 </div>
-<page size="A4">
+<page size="A4" id="printArea">
     <div class="leftdiv">
         <div id="logo" >
         <img src="/img/logo_padinet_small4.png" height="75px" alt="">
@@ -269,10 +273,10 @@
             <div class='rowfieldheader'>
                 Penagihan
             </div>
-            <div>
+            <div class="clientAddress">
                 <div><input type="checkbox" name="" id="">Account Baru</div>
             </div>
-            <div>
+            <div class="clientAddress">
                 <div><input type="checkbox" name="" id="">Ditambahkan ke Account yang telah ada</div>
             </div>
 
@@ -281,7 +285,7 @@
             <div class='rowfieldheader'>
                 Alamat Penagihan
             </div>
-            <div>
+            <div class="clientAddress">
                 <div>Komplek Pergudangan Permata Gedangan Blok A / 16</div><br><br>
             </div>
 
@@ -305,3 +309,4 @@
 </page>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="/js/fbs/hal1.js"></script>
+</html>

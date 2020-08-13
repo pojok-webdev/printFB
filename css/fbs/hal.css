@@ -124,11 +124,23 @@ span.categoryoptionlabel {
     float: left;
     width: 15%;
 }
+.clientAddress{
+    margin-left: 10px;
+}
 .rightafternumber{
     float: left;
     width: 85%;
 }
 .navigator{
-    position: -webkit-sticky;
-    position: sticky;
+/*    position: -webkit-sticky;
+    position: sticky;*/
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
 }

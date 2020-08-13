@@ -32,17 +32,17 @@ class Fbs extends CI_Controller{
     }
     function hal1(){
         $nofb = $this->uri->segment(3);
-        $data = $this->report->getdata($nofb);
+        $fbs = $this->report->getdata($nofb);
         $data = array(
-            'nofb'=>$data->nofb,
-            'name'=>$data->name,
-            'address'=>$data->address,
-            'siup'=>$data->siup,
-            'npwp'=>$data->npwp,
-            'telp'=>$data->telp,
-            'fax'=>$data->fax,
-            'period1'=>$this->common->adaptdate($data->period1),
-            'period2'=>$this->common->adaptdate($data->period2),
+            'nofb'=>$fbs->nofb,
+            'name'=>$fbs->name,
+            'address'=>$fbs->address,
+            'siup'=>$fbs->siup,
+            'npwp'=>$fbs->npwp,
+            'telp'=>$fbs->telp,
+            'fax'=>$fbs->fax,
+            'period1'=>$this->common->adaptdate($fbs->period1),
+            'period2'=>$this->common->adaptdate($fbs->period2),
         );
         $this->load->view('execution/hal1',$data);
     }
