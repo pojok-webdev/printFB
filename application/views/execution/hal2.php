@@ -53,7 +53,7 @@
         </div>
         <div>
             <div class='leftfieldbiaya'>Biaya perangkat</div>
-            <div class='rightfieldbiaya'>:Rp. <?php echo $devicefeedpp;?>+PPn = Rp. <?php echo $devicefeetotal;?></div>
+            <div class='rightfieldbiaya'>: Rp. <?php echo $devicefeedpp;?>+PPn = Rp. <?php echo $devicefeetotal;?></div>
         </div>
         <div>
             <div class='leftfieldbiaya'>Biaya lainnya</div>
@@ -106,8 +106,8 @@
 
 
 
-    <div class='sign'>
-        <div class='leftdiv2'>
+    <div class='mostbottom'>
+        <div class='leftdiv2 hasbottomline'>
             <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
             <span class='leftdivsmaller1'>
                 <span id='unholder'><?php echo $username;?></span>
@@ -119,12 +119,11 @@
             </span>
         </div>
         <div class='verticalline'>
-        <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
+        <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
         </div>
-        <div class='rightdiv2'>
-            <span id='keteranganinternal' class='hasoverline'>Keterangan</span>
+        <div class='rightdiv2 hasbottomline'>
+            <span id='keteranganinternal' class='hasoverlinex'>Keterangan</span>
             <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
         </div>
     </div>
-<hr class='lonely'>
 </page>
