@@ -149,20 +149,20 @@
                 Pemohon
             </div>
             <div>
-                <div class='leftfield'>Nama</div>: Puji W Prayitno
+                <div class='leftfield'>Nama</div>: <?php echo $subscriber->name;?>
             </div>
             <div>
-                <div class='leftfield'>Jabatan</div>: CEO
+                <div class='leftfield'>Jabatan</div>: <?php echo $subscriber->position;?>
             </div>
             <div>
-                <div class='leftfield'>No ID (KTP)</div>: 123456789xx
+                <div class='leftfield'>No ID (KTP)</div>: <?php echo $subscriber->idnum;?>
             </div>
             <div>
                 <div class="leftfield">Telp/HP</div>
-                <div class="xrightfield">: 123456789xx</div>
+                <div class="xrightfield">: <?php echo $subscriber->phone;?></div>
             </div>
             <div>
-                <div class='leftfield'>Email</div>: puji@padi.net.id
+                <div class='leftfield'>Email</div>: <?php echo $subscriber->email;?>
             </div>
         
         </div>
@@ -171,20 +171,20 @@
                 Penanggung Jawab (Setara Direktur atau Pemilik Usaha)
             </div>
             <div>
-                <div class='leftfield'>Nama</div>: Puji W Prayitno
+                <div class='leftfield'>Nama</div>: <?php echo $resp->name;?>
             </div>
             <div>
-                <div class='leftfield'>Jabatan</div>: CEO
+                <div class='leftfield'>Jabatan</div>: <?php echo $resp->position;?>
             </div>
             <div>
-                <div class='leftfield'>No ID (KTP)</div>: 123456789xx
+                <div class='leftfield'>No ID (KTP)</div>: <?php echo $resp->idnum;?>
             </div>
             <div>
                 <div class="leftfield">Telp/HP</div>
-                <div>: 123456789xx</div>
+                <div>: <?php echo $resp->phone;?></div>
             </div>
             <div>
-                <div class='leftfield'>Email</div>: puji@padi.net.id
+                <div class='leftfield'>Email</div>: <?php echo $resp->email;?>
             </div>
 
         </div>        
@@ -194,17 +194,17 @@
                 Untuk Keperluan Administrasi, PadiNET akan menghubungi
             </div>
             <div>
-                <div class='leftfield'>Nama</div>: Puji W Prayitno
+                <div class='leftfield'>Nama</div>: <?php echo $adm->name;?>
             </div>
             <div>
-                <div class='leftfield'>Jabatan</div>: CEO
+                <div class='leftfield'>Jabatan</div>: <?php echo $adm->position;?>
             </div>
             <div>
                 <div class="leftfield">Telp/HP</div>
-                <div class="xrightfield">: 123456789xx</div>
+                <div class="xrightfield">: <?php echo $adm->phone;?></div>
             </div>
             <div>
-                <div class='leftfield'>Email</div>: puji@padi.net.id
+                <div class='leftfield'>Email</div>: <?php echo $adm->email;?>
             </div>
 
         </div>
@@ -213,17 +213,17 @@
                 Untuk setup teknis dan instalasi, PadiNET akan menghubungi
             </div>
             <div>
-                <div class='leftfield'>Nama</div>: Puji W Prayitno
+                <div class='leftfield'>Nama</div>: <?php echo $teknis->name;?>
             </div>
             <div>
-                <div class='leftfield'>Jabatan</div>: CEO
+                <div class='leftfield'>Jabatan</div>: <?php echo $teknis->position;?>
             </div>
             <div>
                 <div class="leftfield">Telp/HP</div>
-                <div>: 123456789xx</div>
+                <div>: <?php echo $teknis->phone;?></div>
             </div>
             <div>
-                <div class='leftfield'>Email</div>: puji@padi.net.id
+                <div class='leftfield'>Email</div>: <?php echo $teknis->email;?>
             </div>
 
         </div>
@@ -233,17 +233,17 @@
                 Untuk penagihan, PadiNET akan menghubungi
             </div>
             <div>
-                <div class='leftfield'>Nama</div>: Puji W Prayitno
+                <div class='leftfield'>Nama</div>: <?php echo $billing->name;?>
             </div>
             <div>
-                <div class='leftfield'>Jabatan</div>: CEO
+                <div class='leftfield'>Jabatan</div>: <?php echo $billing->position;?>
             </div>
             <div>
                 <div class="leftfield">Telp/HP</div>
-                <div class="xrightfield">: 123456789xx</div>
+                <div class="xrightfield">: <?php echo $billing->phone;?></div>
             </div>
             <div>
-                <div class='leftfield'>Email</div>: puji@padi.net.id
+                <div class='leftfield'>Email</div>: <?php echo $billing->email;?>
             </div>
 
         </div>
@@ -252,17 +252,17 @@
                 Untuk support teknis 24 jam, PadiNET akan menghubungi
             </div>
             <div>
-                <div class='leftfield'>Nama</div>: Puji W Prayitno
+                <div class='leftfield'>Nama</div>: <?php echo $support->name;?>
             </div>
             <div>
-                <div class='leftfield'>Jabatan</div>: CEO
+                <div class='leftfield'>Jabatan</div>: <?php echo $support->position;?>
             </div>
             <div>
                 <div class="leftfield">Telp/HP</div>
-                <div>: 123456789xx</div>
+                <div>: <?php echo $support->phone;?></div>
             </div>
             <div>
-                <div class='leftfield'>Email</div>: puji@padi.net.id
+                <div class='leftfield'>Email</div>: <?php echo $support->email;?>
             </div>
 
         </div>

@@ -2,10 +2,13 @@
 <link rel='stylesheet' href='/css/fbs/hal2.css' />
 <link rel="stylesheet" href="/css/fbs/screen-css.css" media="all" />
 <link rel="stylesheet" href="/css/fbs/print-css.css" media="print" />
+<link rel="stylesheet" href="/css/fbs/screen-css.css" media="all" />
+<link rel="stylesheet" href="/css/fbs/print-css.css" media="print" />
+<script src="/js/fbs/print.js"></script>
 <div class='navigator'>
     <a href="/fbs/index"><img src="/img/navigators/home-4x.png" alt="Home" ></a>
     <a href="/fbs/hal1/<?php echo $nofb;?>"><img src="/img/navigators/caret-left-4x.png" ></a>
-    <a href="#"><img src="/img/navigators/print-4x.png"></a>
+    <span onclick="winPrint()"><img src="/img/navigators/print-4x.png"></span>
 </div>
 <page size="A4">
     <div class='rowheader1st serviceheader'>
@@ -15,15 +18,23 @@
     </div>
     <div class="servicedata">
         <div>
-            <span>Padi Smart Value Up To 2 Mbps</span>
+            <span>
+                <?php foreach($services as $service){
+                    echo $service->category . ' ';
+                    echo $service->name . ' ';
+                    echo 'Up '.$service->upstr . ' Mbps';
+                    echo 'Down '.$service->dnstr . ' Mbps';
+                    echo '<br />';
+                }?>
+            </span>
         </div>
     </div>
     <div class="perioddata">
         <div>
-            <span>Tanggal Aktivasi</span><span>:Padi Smart Value Up To 2 Mbps</span>
+            <span>Tanggal Aktivasi</span><span>&#9;:&#9;<?php echo $activationdate?></span>
         </div>
         <div>
-            <span>Periode Kontrak</span><span>:<?php echo $period1 . '-' . $period2;?></span>
+            <span>Periode Kontrak</span><span>&#9;:&#9; <?php echo $period1 . ' - ' . $period2;?></span>
         </div>
     </div>
     <div class='rowheader serviceheader'>
@@ -34,19 +45,19 @@
     <div >
         <div>
             <div class='leftfieldbiaya'>Biaya Setup</div>
-            <div class='rightfieldbiaya'>: Rp. <?php echo $setupdpp;?>+PPn = Rp. 1.100.000</div>
+            <div class='rightfieldbiaya'>: Rp. <?php echo $setupfeedpp;?>+PPn = Rp. <?php echo $setupfeetotal;?></div>
         </div>
         <div>
             <div class='leftfieldbiaya'>Biaya berlangganan bulanan</div>
-            <div class='rightfieldbiaya'>: Rp. 750.000+PPn = Rp. 825.000</div>
+            <div class='rightfieldbiaya'>: Rp. <?php echo $monthlyfeedpp;?>+PPn = Rp. <?php echo $monthlyfeetotal;?></div>
         </div>
         <div>
             <div class='leftfieldbiaya'>Biaya perangkat</div>
-            <div class='rightfieldbiaya'>:</div> 
+            <div class='rightfieldbiaya'>:Rp. <?php echo $devicefeedpp;?>+PPn = Rp. <?php echo $devicefeetotal;?></div>
         </div>
         <div>
             <div class='leftfieldbiaya'>Biaya lainnya</div>
-            <div class='rightfieldbiaya'>: Rp. 750.000</div>
+            <div class='rightfieldbiaya'>: Rp. <?php echo $otherfeedpp;?></div>
         </div>
     </div>
 

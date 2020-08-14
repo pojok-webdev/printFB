@@ -43,12 +43,23 @@ class Fbs extends CI_Controller{
             'fax'=>$fbs->fax,
             'period1'=>$this->common->adaptdate($fbs->period1),
             'period2'=>$this->common->adaptdate($fbs->period2),
-        );
+            'resp' => $this->report->getfbpics($nofb,'resp'),
+            'subscriber' => $this->report->getfbpics($nofb,'subscriber'),
+            'billing' => $this->report->getfbpics($nofb,'billing'),
+            'adm' => $this->report->getfbpics($nofb,'adm'),
+            'teknis' => $this->report->getfbpics($nofb,'teknis'),
+            'support' => $this->report->getfbpics($nofb,'support'),
+            
+            );
         $this->load->view('execution/hal1',$data);
     }
     function hal2(){
         $nofb = $this->uri->segment(3);
         $data = $this->report->getdata($nofb);
+        $setupfee=$this->report->getfees($nofb,'setup');
+        $monthlyfee=$this->report->getfees($nofb,'monthly');
+        $devicefee=$this->report->getfees($nofb,'device');
+        $otherfee =$this->report->getfees($nofb,'other');
         $data = array(
             'nofb'=>$data->nofb,
             'name'=>$data->name,
@@ -61,6 +72,19 @@ class Fbs extends CI_Controller{
             'period2'=>$this->common->adaptdate($data->period2),
             'username'=>$data->username,
             'setupdpp'=>$data->setupdpp,
+            'services'=>$this->report->getservices($nofb),
+            'setupfeedpp'=>(!$setupfee)?'0':$setupfee->dpp,
+            'setupfeeppn'=>(!$setupfee)?'0':$setupfee->ppn,
+            'setupfeetotal'=>(!$setupfee)?'0':$setupfee->total,
+            'monthlyfeedpp'=>(!$monthlyfee)?'0':$monthlyfee->dpp,
+            'monthlyfeeppn'=>(!$monthlyfee)?'0':$monthlyfee->ppn,
+            'monthlyfeetotal'=>(!$monthlyfee)?'0':$monthlyfee->total,
+            'devicefeedpp'=>(!$devicefee)?'0':$devicefee->dpp,
+            'devicefeeppn'=>(!$devicefee)?'0':$devicefee->ppn,
+            'devicefeetotal'=>(!$devicefee)?'0':$devicefee->total,
+            'otherfeedpp'=>(!$otherfee)?'0':$otherfee->dpp,
+            'otherfeeppn'=>(!$otherfee)?'0':$otherfee->ppn,
+            'activationdate'=>$this->common->adaptdate($data->activationdate),
         );
         $this->load->view('execution/hal2',$data);
     }
