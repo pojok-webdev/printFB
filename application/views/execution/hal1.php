@@ -73,22 +73,22 @@
     </div>
     <div class="categorydiv">
         <div>
-            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Korporasi</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="" id="" <?php echo $businesstypecorporation;?> /> Korporasi</span>
         </div>
     </div>
     <div class="categorydiv">
         <div>
-            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Game Online</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="" id="" <?php echo $businesstypegameonline;?>> Game Online</span>
         </div>
     </div>
     <div class="categorydiv">
         <div>
-            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Perorangan</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="personal" id="personal" <?php echo $businesstypepersonal;?> checked value="personal"> Perorangan</span>
         </div>
     </div>
     <div class="categorydiv">
         <div>
-            <span class="categoryoptionlabel"><input type="checkbox" name="" id=""> Lainnya</span>
+            <span class="categoryoptionlabel"><input type="checkbox" name="" id="" <?php echo $businesstypeother;?>> Lainnya</span>
         </div>
     </div>
     <div class='rowheader'>

@@ -49,7 +49,10 @@ class Fbs extends CI_Controller{
             'adm' => $this->report->getfbpics($nofb,'adm'),
             'teknis' => $this->report->getfbpics($nofb,'teknis'),
             'support' => $this->report->getfbpics($nofb,'support'),
-            
+            'businesstypeother'=>'',
+            'businesstypepersonal'=>'checked',
+            'businesstypegameonline'=>'',
+            'businesstypecorporation'=>''
             );
         $this->load->view('execution/hal1',$data);
     }
@@ -90,5 +93,18 @@ class Fbs extends CI_Controller{
     }
     function phpinfo(){
         phpinfo();
+    }
+    function getbycreatedate(){
+        $functionname = $this->uri->segment(2);
+        $date1 = $this->uri->segment(3);
+        $date2 = $this->uri->segment(4);
+        $objs = $this->fb->getbycreatedate($date1,$date2);
+        $data = array(
+            'objs'=>$objs,
+            'objslength'=>count($objs),
+            'date1'=>$date1,
+            'date2'=>$date2
+        );
+        $this->load->view($functionname,$data);
     }
 }

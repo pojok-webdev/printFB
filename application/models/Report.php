@@ -11,6 +11,7 @@ class Report extends CI_Model{
     function getdata($nofb){
         $sql = 'select a.nofb,a.name,a.address,activationdate,';
         $sql.= 'a.siup,a.npwp,a.telp,a.fax,a.period1,a.period2,c.username,';
+        $sql.= 'a.businesstype,';
         $sql.= 'd.dpp setupdpp ';
         $sql.= 'from fbs a ';
         $sql.= 'left outer join clients b on b.id=a.client_id ';
