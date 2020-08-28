@@ -14,6 +14,7 @@ class Fb extends CI_Model{
         $sql = 'select nofb,name,createdate ';
         $sql.= 'from fbs ';
         $sql.= 'where createdate >"'.$date1.'" and createdate<="'.$date2.'" ';
+        $sql.= 'order by createdate asc ';
         $ci = & get_instance();
         $que = $ci->db->query($sql);
         return $que->result();
