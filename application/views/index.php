@@ -80,20 +80,6 @@
             <div class="row-fluid">
                 <div class="span12">
                     
-                    <div class="widgetButtons">                        
-                        <div class="bb"><a href="#" class="tipb" title="Edit"><span class="ibw-edit"></span></a></div>
-                        <div class="bb">
-                            <a href="#" class="tipb" title="Upload"><span class="ibw-folder"></span></a>
-                            <div class="caption red">31</div>
-                        </div>
-                        <div class="bb"><a href="#" class="tipb" title="Add new"><span class="ibw-plus"></span></a></div>
-                        <div class="bb"><a href="#" class="tipb" title="Add to favorite"><span class="ibw-favorite"></span></a></div>
-                        <div class="bb">
-                            <a href="#" class="tipb" title="Send mail"><span class="ibw-mail"></span></a>
-                            <div class="caption green">31</div>
-                        </div>
-                        <div class="bb"><a href="#" class="tipb" title="Settings"><span class="ibw-settings"></span></a></div>
-                    </div>
                     
                 </div>
             </div>
