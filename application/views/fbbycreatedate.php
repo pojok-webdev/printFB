@@ -164,7 +164,8 @@
                     "aLengthMenu": [[-1,10,25,50,100],['All',10,25,50,100]], 
                     "sPaginationType": 
                     "full_numbers", 
-                    "aoColumns": [ null, null, null]
+                    "aoColumns": [ null, null, null],
+                    "aaSorting": [[ 2, "asc" ]]
                 });
          }
          
