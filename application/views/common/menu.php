@@ -26,7 +26,7 @@
         
         <ul class="navigation">            
             <li class="active">
-                <a href="/fbs/getbycreatedate">
+                <a href="/fbs/fbbycreatedate/<?php echo date("Y-m-d")?>/<?php echo date("Y-m-d")?>">
                     <span class="isw-grid"></span><span class="text">List Fb per tanggal pembuatan</span>
                 </a>
             </li>
