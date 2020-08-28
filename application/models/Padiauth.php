@@ -30,4 +30,23 @@ Class Padiauth extends CI_Model{
             redirect('/main/login');
         }
     }
+    function hasmodulepreference($identifier_id,$module_id,$identifiertype='user_id'){
+        $sql = 'select * from modules_users ';
+        $sql.= 'where module_id='.$module_id.'';
+        switch($identifiertype){
+            case 'user_id':
+            $sql.= 'and user_id='.$identifier_id.'';
+            break;
+            case 'email':
+            $sql.= 'and email=".$identifier_id."';
+            break;
+        }
+        $sql.= 'and user_id='.$user_id.'';
+        $ci = & get_instance();
+        $que = $ci->db->query($sql);
+        if($que->num_rows()>0){
+            return true;
+        };
+        return false;
+    }
 }

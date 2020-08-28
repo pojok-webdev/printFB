@@ -107,4 +107,18 @@ class Fbs extends CI_Controller{
         );
         $this->load->view($functionname,$data);
     }
+    function fbbycreatedate(){
+        $functionname = $this->uri->segment(2);
+        $date1 = $this->uri->segment(3);
+        $date2 = $this->uri->segment(4);
+        $objs = $this->fb->getbycreatedate($date1,$date2);
+        $data = array(
+            'objs'=>$objs,
+            'objslength'=>count($objs),
+            'date1'=>$date1,
+            'date2'=>$date2
+        );
+        $this->load->view($functionname,$data);
+    }
+
 }

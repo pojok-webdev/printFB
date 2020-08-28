@@ -8,7 +8,8 @@ Class Main extends CI_Controller{
         $this->load->view('login');
     }
     function index(){
-        $this->load->view('login');
+        $this->padiauth->checklogin();
+        $this->load->view('index');
     }
     function loginhandler(){
         $params = $this->input->post();
