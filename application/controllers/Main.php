@@ -14,7 +14,8 @@ Class Main extends CI_Controller{
     function loginhandler(){
         $params = $this->input->post();
         if($this->padiauth->checkAuth($params['email'],$params['password'])){
-            $this->routeuser($params['email']);
+            //$this->routeuser($params['email']);
+            $this->load->view('index');
         }else{
             redirect('/main/login');
         };
